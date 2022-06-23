@@ -2,13 +2,13 @@ import { useState } from 'react';
 import ClickPhoto from './ClickPhoto';
 
 function Click() {
-    const [bigBG, setBigBG] = useState('./imgs/product1.jpg');
+    const [bigBG, setBigBG] = useState('../Clickimgs/product1.jpg');
     const [photoArray, setPhotoArray] = useState([
-        './imgs/product1.jpg',
-        './imgs/product2.jpg',
-        './imgs/product3.jpg',
-        './imgs/product4.jpg',
-        './imgs/product5.jpg',
+        '../Clickimgs/product1.jpg',
+        '../Clickimgs/product2.jpg',
+        '../Clickimgs/product3.jpg',
+        '../Clickimgs/product4.jpg',
+        '../Clickimgs/product5.jpg',
     ]);
 
     function handleClick(e) {
