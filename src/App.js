@@ -1,9 +1,7 @@
-// import './App.css';
-// import Click from './ClickPhoto/Click';
-import State from './test/03-state';
+import Lifting from './test/04-Lifting';
 
 function App() {
-    return <State />;
+    return <Lifting />;
 }
 
 export default App;
