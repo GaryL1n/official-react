@@ -1,9 +1,9 @@
 // import './App.css';
 // import Click from './ClickPhoto/Click';
-import Carousel from './Carousel/Carousel';
+import State from './test/03-state';
 
 function App() {
-    return <Carousel />;
+    return <State />;
 }
 
 export default App;
