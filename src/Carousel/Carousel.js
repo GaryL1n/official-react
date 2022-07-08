@@ -1,6 +1,7 @@
 import './Carousel.css';
 import { useState } from 'react';
 import Trainbox from './Trainbox';
+import Mouseenter from './Mouseenter';
 
 function Carousel() {
     const [carouselArray, setCarouselArray] = useState([
@@ -10,6 +11,10 @@ function Carousel() {
         '../Carouselimgs/slide4.jpg',
         '../Carouselimgs/slide5.jpg',
     ]);
+
+    function Mouseenter() {
+
+    }
 
     return (
 
@@ -26,11 +31,14 @@ function Carousel() {
                     </ul>
 
                     <ul className="slider-dots-area">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    {carouselArray.map((photo) => {
+                            return (
+                            <Mouseenter
+                            key={photo}
+                            // Mouse={}
+                            />
+                            );
+                        })}
                     </ul>
                 </div>
 
